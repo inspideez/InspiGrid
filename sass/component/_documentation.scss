@@ -1,0 +1,15 @@
+.documentation{
+	padding: 15px;
+	border: solid 1px #e6e5e5;
+	background: $gray-lighter;
+	border-radius: 3px;
+	@extend .margin-top-1x;
+	@extend .margin-bottom-1x;
+}
+.documentation-left{
+	padding: 15px;
+	@extend .margin-top-1x;
+	@extend .margin-bottom-1x;
+	border: solid 1px #e6e5e5;
+	border-radius: 3px;
+}

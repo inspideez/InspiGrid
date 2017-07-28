@@ -1,0 +1,264 @@
+
+/**************************************************************************************************************
+***************************************************************************************************************
+1. Color
+***************************************************************************************************************
+**************************************************************************************************************/
+
+$clr-white:					#fff;
+$clr-black:					#000;
+
+$gray-base:             $clr-black !default;
+$gray-darker:           lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:             lighten($gray-base, 20%) !default;   // #333
+$gray:                  lighten($gray-base, 33.5%) !default; // #555
+$gray-light:            lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:          lighten($gray-base, 93.5%) !default; // #eee
+
+$brand-primary:         #337ab7 !default;
+$brand-secondary:       #337ab7 !default;
+
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+$body-bg:               $clr-white !default;
+
+$text-black:            $clr-black !default;
+$text-white:            $clr-white !default;
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+$link-color:            $brand-primary !default;
+$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+$font-family-default: 	'Source Sans Pro', sans-serif; // Default body font
+$font-family-one: 		'Roboto', sans-serif !default; // Font type-1
+$font-family-two: 		Georgia, "Times New Roman", Times, serif !default; // Font type-2
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+$font-size-default:     14px !default;
+$font-size-small:      	($font-size-default)-2; // 12
+$font-size-large: 		($font-size-default)+2; // 16
+
+$heading-one:  			32px;
+$heading-two:  			28px;
+$heading-three:  			24px;
+$heading-four:  			20px;
+$heading-five:  			18px;
+$heading-six:  			16px;
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+$padding-default:       15px !default;
+$margin-default:       	15px !default;
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+$line-height-default:   1.3333333 !default;
+$line-height-small:     1.5 !default;
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+$font-weight-thin:    			100;
+$font-weight-extralight:    	200;
+$font-weight-light:    			300;
+$font-weight-normal:    		400;
+$font-weight-semibold:    		500;
+$font-weight-medium:    		600;
+$font-weight-bold:    			700;
+$font-weight-extrabold:    	800;
+$font-weight-black:    			900;
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+$border-radius-default:     0px !default; /*Recommended : 4px*/
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+$btn-default-color:    	$brand-primary !default;
+$btn-default-bg:        $clr-white !default;
+$btn-default-border:    $gray-light !default;
+
+$btn-primary-color:     $clr-white !default;
+$btn-primary-bg:        $brand-primary !default;
+$btn-primary-border:    darken($brand-primary, 5%) !default;
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+$input-bg:                       $clr-white !default;
+$input-bg-disabled:              $gray-lighter !default;
+$input-color:                    $gray !default;
+$input-border:                   $gray-light !default;
+
+$input-border-radius:            $border-radius-default !default;
+$input-border-focus:             $brand-primary !default;
+
+$input-color-placeholder:        $gray-light !default;
+
+$form-default-gap:					$padding-default;
+
+$form-default-font-size: 			$font-size-default;
+$form-default-font-color: 			$font-size-default;
+
+$form-active-font-size: 			$font-size-default;
+$form-active-font-color: 			$font-size-default;
+
+$form-height-base: $line-height-default;
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+
+$zindex-header:            1000 !default;
+$zindex-menu:         		1000 !default;
+$zindex-popover:           1060 !default;
+$zindex-tooltip:           1070 !default;
+$zindex-modal-background:  1040 !default;
+$zindex-modal:             1050 !default;
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+/***************************************************************************************************************
+	1. Define the breakpoints at which your layout will change, adapting to different screen sizes.
+	2. Extra small screen-phone, Small screen-tablet, Medium screen - desktop, Large screen - wide desktop
+***************************************************************************************************************/
+// Extra small screen / phone
+
+$screen-xs:                  480px !default;
+$screen-xs-min:              $screen-xs !default;
+$screen-phone:               $screen-xs-min !default;
+
+
+
+$screen-sm:                  768px !default;
+$screen-sm-min:              $screen-sm !default;
+$screen-tablet:              $screen-sm-min !default;
+
+
+$screen-md:                  992px !default;
+$screen-md-min:              $screen-md !default;
+$screen-desktop:             $screen-md-min !default;
+
+$screen-lg:                  1200px !default;
+$screen-lg-min:              $screen-lg !default;
+$screen-lg-desktop:          $screen-lg-min !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+
+$tooltip-max-width:           200px !default;
+$tooltip-color:               $clr-white !default;
+$tooltip-bg:                  $gray-base !default;
+$tooltip-opacity:             .9 !default;
+$tooltip-arrow-color:         $tooltip-bg !default;
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+$popover-bg:                  $clr-white !default;
+$popover-max-width:           276px !default;
+$popover-border-color:        rgba(0,0,0,.2) !default;
+$popover-title-bg:            darken($popover-bg, 3%) !default;
+$popover-arrow-color:         $popover-bg !default;
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+
+//** Background color of modal content area
+$modal-content-bg:           $clr-white !default;
+//** Modal content border color
+$modal-content-border-color: rgba($clr-black,.2) !default;
+
+//** Modal backdrop background color
+$modal-backdrop-bg:          $clr-white !default;
+//** Modal backdrop opacity
+$modal-backdrop-opacity:     .5 !default;
+
+$modal-lg:                   900px !default;
+$modal-md:                   600px !default;
+$modal-sm:                   300px !default;
+
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+/*animation transition effect/options*/
+/*default : cubic-bezier
+*
+*Options : Ease, Linear, Ease-In, Ease-Out, Ease-In-Out;
+*
+*/
+$transition-function-default : cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+/*animation transition time*/
+$transition-time-default : .3s;
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+$box-sizing: border-box;
+
+/***************************************************************************************************************
+***************************************************************************************************************/
+
+//== Grid system
+//
+//## Define your custom responsive grid.
+
+//** Number of columns in the grid.
+$grid-columns:              12 !default;
+//** Padding between columns. Gets divided in half for the left and right.
+$grid-gutter-width:         30px !default;
+// Navbar collapse
+//** Point at which the navbar becomes uncollapsed.
+$grid-float-breakpoint:     $screen-sm-min !default;
+//** Point at which the navbar begins collapsing.
+$grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
+
+
+//== Container sizes
+//
+//## Define the maximum width of `.container` for different screen sizes.
+
+// Small screen / tablet
+$container-tablet:             (720px + $grid-gutter-width) !default;
+//** For `$screen-sm-min` and up.
+$container-sm:                 $container-tablet !default;
+
+// Medium screen / desktop
+$container-desktop:            (940px + $grid-gutter-width) !default;
+//** For `$screen-md-min` and up.
+$container-md:                 $container-desktop !default;
+
+// Large screen / wide desktop
+$container-large-desktop:      (1140px + $grid-gutter-width) !default;
+//** For `$screen-lg-min` and up.
+$container-lg:                 $container-large-desktop !default;
+
+/***************************************************************************************************************
+***************************************************************************************************************/

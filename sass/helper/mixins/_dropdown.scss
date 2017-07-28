@@ -1,0 +1,74 @@
+// Button variants
+//
+// Easily pump out default styles, as well as :hover, :focus, :active,
+// and disabled options for all buttons
+//border radius set as 0 
+@mixin dropdown-menu($color:$clr-black, $background:$clr-white) {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 1px 0 0;
+    text-align: left;
+    list-style: none;
+    background-color: $background;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid darken($background, 20%);
+    border-radius: $border-radius-default;
+    > li {
+        > a {
+            display: block;
+            padding: 3px 20px;
+            clear: both;
+            font-weight: 400;
+            line-height: 1.42857143;
+            color: #333;
+            white-space: nowrap;
+            &:hover {
+                background: darken($background, 10%);
+            }
+        }
+    }
+    &.right{
+        left: auto;
+        right: 0;
+    }
+}
+
+/*.dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        display: none; 
+        float: left;
+        min-width: 160px;
+        padding: 5px 0;
+        margin: 2px 0 0;
+        text-align: left;
+        list-style: none;
+        background-color: $clr-white;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: 1px solid darken($clr-white, 20%);
+        border-radius: $border-radius-default;
+        > li{
+            > a{
+                display: block;
+                padding: 3px 20px;
+                clear: both;
+                font-weight: 400;
+                line-height: 1.42857143;
+                color: #333;
+                white-space: nowrap;
+                &:hover{
+                    background:darken($clr-white, 10%);
+                }
+            }
+        }
+    }*/

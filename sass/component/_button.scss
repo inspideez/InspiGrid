@@ -1,0 +1,94 @@
+//// GENERAL
+//$btn-text-color: #fff;
+//$darken-percent: 15%;
+//$lighten-percent: 20%;
+//$btn-height: 34px;
+//$btn-border-radius: 2px;
+//$btn-padding: 0 20px;
+//$btn-font-size: 14px;
+//$btn-shadow-color: #666;
+//$btn-font-weight: 200;
+//$font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+//
+//// COLORS
+//$btn-bg: #999 !default;
+//  
+//$btn-blue: #4174d5;
+//$btn-orange: #ff9933;
+//$btn-green: #339900;
+//$btn-red: #ff6666;
+
+
+.btn{
+    @include button-colors($gray-light);
+}
+
+.btn {
+    @include button-variant();
+    &.btn-xs {
+        @include button-size($padding-vertical: $padding-default / 6, $padding-horizontal: $padding-default/2, $font-size: $font-size-default - 2, $line-height: $line-height-default);
+    }
+    &.btn-sm {
+        @include button-size($padding-vertical: $padding-default / 4, $padding-horizontal: $padding-default/1.5, $font-size: $font-size-default, $line-height: $line-height-default);
+    }
+    &.btn-md {
+        @include button-size();
+    }
+    &.btn-xl {
+        @include button-size($padding-vertical: $padding-default / 2, $padding-horizontal: $padding-default * 1.5, $font-size: $font-size-default, $line-height: $line-height-default);
+    }
+    &.btn-xxl {
+        @include button-size($padding-vertical: $padding-default / 1.5, $padding-horizontal: $padding-default * 2, $font-size: $font-size-default, $line-height: $line-height-default);
+    }
+    /**/
+    &.btn-default {
+        @include button-colors($gray-lighter, $clr-black);
+    }
+    &.btn-primary {
+        @include button-colors($brand-primary);
+    }
+    &.btn-success {
+        @include button-colors($brand-success);
+    }
+    &.btn-info {
+        @include button-colors($brand-info);
+    }
+    &.btn-warning {
+        @include button-colors($brand-warning);
+    }
+    &.btn-danger {
+        @include button-colors($brand-danger);
+    }
+}
+.btn-group>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+    border-radius: 0;
+}
+.btn-group{
+    .btn+.btn,
+    .btn+.btn-group,
+    .btn-group+.btn,
+    .btn-group+.btn-group{
+        margin-left: -1px;
+    }
+    >.btn {
+        position: relative;
+        float: left;
+    }
+}
+.btn-group>.btn:last-child:not(:first-child){
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.btn-group>.btn:first-child:not(:last-child){
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.rounded{
+    border-radius: 100px;
+    &.btn{
+        border-radius: 100px;
+    }
+    > .btn{
+        border-radius: 100px;
+    }
+}

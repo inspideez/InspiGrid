@@ -1,0 +1,248 @@
+/********************************************************
+********************************************************/
+
+.margin-1x{
+	margin: $padding-default;
+}
+.margin-top-1x{
+	margin-top: $padding-default;
+}
+.margin-right-1x{
+	margin-right: $padding-default;
+}
+.margin-bottom-1x{
+	margin-bottom: $padding-default;
+}
+.margin-left-1x{
+	margin-left: $padding-default;
+}
+
+//-------------------------------------------------------
+
+.margin-2x{
+	margin: 2*($padding-default);
+}
+.margin-top-2x{
+	margin-top: 2*($padding-default);
+}
+.margin-right-2x{
+	margin-right: 2*($padding-default);
+}
+.margin-bottom-2x{
+	margin-bottom: 2*($padding-default);
+}
+.margin-left-2x{
+	margin-left: 2*($padding-default);
+}
+
+//-------------------------------------------------------
+
+.margin-none{
+	margin: 0;
+}
+.margin-top-none{
+	margin-top: 0;
+}
+.margin-right-none{
+	margin-right: 0;
+}
+.margin-bottom-none{
+	margin-bottom: 0;
+}
+.margin-left-none{
+	margin-left: 0;
+}
+
+/********************************************************
+********************************************************/
+
+/********************************************************
+********************************************************/
+
+.padding-1x{
+	padding: $padding-default;
+}
+.padding-top-1x{
+	padding-top: $padding-default;
+}
+.padding-right-1x{
+	padding-right: $padding-default;
+}
+.padding-bottom-1x{
+	padding-bottom: $padding-default;
+}
+.padding-left-1x{
+	padding-left: $padding-default;
+}
+
+//-------------------------------------------------------
+
+.padding-2x{
+	padding: 2*($padding-default);
+}
+.padding-top-2x{
+	padding-top: 2*($padding-default);
+}
+.padding-right-2x{
+	padding-right: 2*($padding-default);
+}
+.padding-bottom-2x{
+	padding-bottom: 2*($padding-default);
+}
+.padding-left-2x{
+	padding-left: 2*($padding-default);
+}
+
+//-------------------------------------------------------
+
+.padding-none{
+	padding: 0;
+}
+.padding-top-none{
+	padding-top: 0;
+}
+.padding-right-none{
+	padding-right: 0;
+}
+.padding-bottom-none{
+	padding-bottom: 0;
+}
+.padding-left-none{
+	padding-left: 0;
+}
+
+
+/********************************************************
+********************************************************/
+
+.heading-one{
+	font-size: $heading-one;
+}
+.heading-two{
+	font-size: $heading-two;
+}
+.heading-three{
+	font-size: $heading-three;
+}
+.heading-four{
+	font-size: $heading-four;
+}
+.heading-five{
+	font-size: $heading-five;
+}
+.heading-six{
+	font-size: $heading-six;
+}
+
+/********************************************************
+********************************************************/
+
+.font-thin{
+	font-weight: $font-weight-thin;
+}
+.font-extralight{
+	font-weight: $font-weight-extralight;
+}
+.font-light{
+	font-weight: $font-weight-light;
+}
+.font-normal{
+	font-weight: $font-weight-normal;
+}
+.font-semibold{
+	font-weight: $font-weight-semibold;
+}
+.font-medium{
+	font-weight: $font-weight-medium;
+}
+.font-bold{
+	font-weight: $font-weight-bold;
+}
+.font-extrabold{
+	font-weight: $font-weight-extrabold;
+}
+.font-black{
+	font-weight: $font-weight-black;
+}
+
+/********************************************************
+********************************************************/
+
+.font-family-default{
+	font-family: $font-family-default;
+}
+
+.font-family-one{
+	font-family: $font-family-one;
+}
+
+.font-family-two{
+	font-family: $font-family-two;
+}
+
+/********************************************************
+********************************************************/
+
+.bg-default{
+	background: $body-bg;
+}
+.bg-primary{
+	background: $brand-primary;
+}
+.bg-secondary{
+	background: $brand-secondary;
+}
+
+/********************************************************
+********************************************************/
+
+.font-size-default{
+	font-size: $font-size-default;
+}
+.font-size-large{
+	font-size: $font-size-large;
+}
+.font-size-small{
+	font-size: $font-size-small;
+}
+
+/********************************************************
+********************************************************/
+
+.text-black{
+	color: $text-black;
+}
+.text-white{
+	color: $text-white;
+}
+.text-brand-one{
+	color: $brand-primary;
+}
+
+/********************************************************
+********************************************************/
+
+.block{
+	display: block;
+}
+.inline{
+	display: inline;
+}
+.inline-block{
+	display: inline-block;
+}
+.inline-table{
+	display: inline-table;
+}
+.flex{
+	display: flex;
+}
+
+/********************************************************
+********************************************************/
+
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

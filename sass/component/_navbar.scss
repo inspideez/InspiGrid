@@ -1,0 +1,31 @@
+
+
+
+
+
+@media (min-width: $screen-sm) {
+    .navbar-toggle {
+        display: none;
+    }
+    .navbar-header {
+        float: left;
+    }
+    .navbar-brand {
+        float: left;
+        height: 50px;
+        padding: $padding-default $padding-default;
+        font-size: 18px;
+        line-height: 20px;
+        margin-left: -15px;
+    }
+    .navbar-nav {
+        float: left;
+        > li{
+            float: left;
+            >a{
+                display: block;
+                padding: $padding-default*1.5 $padding-default;
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+<h5>News</h5>
+<div class="scroll-xd">
+<div class="news-slider owl-carousel">
+<div class="item">
+	<a href="#">
+	<span>24 April 2017</span>
+	</a>
+	<p><a href="#">Financial Chronicle in conversation with Shyamsunder Bhat, CIO, Exide Life Insurance</a></p>
+</div>
+</div>
+</div>
