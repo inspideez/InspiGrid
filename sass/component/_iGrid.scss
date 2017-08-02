@@ -2,7 +2,10 @@
 // inpideez Grid system
 // --------------------------------------------------//
 .grid{
-    @include igGrid(12);
+    @include iGrid(12);
+}
+.rth{
+    
 }
 
 

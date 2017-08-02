@@ -3,7 +3,7 @@
 // Generate semantic grid columns with these mixins.
 
 // Centered container element
-@mixin igGrid($columns: 12) {
+@mixin iGrid($columns: 12) {
     display: -webkit-grid;
     display: grid;
     -webkit-grid-template-columns: repeat($columns, 1fr);
