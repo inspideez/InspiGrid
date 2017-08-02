@@ -3,3 +3,14 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
+.sass-cache/84797cb9f839a52ea18db1ffbb04fb27ee2ebe9e/_global.scssc
+.sass-cache/bed67172f79bca3178a9252450eedd1eedbf165d/_button.scssc
+.sass-cache/bed67172f79bca3178a9252450eedd1eedbf165d/_dropdown.scssc
+.sass-cache/bed67172f79bca3178a9252450eedd1eedbf165d/_form.scssc
+.sass-cache/bed67172f79bca3178a9252450eedd1eedbf165d/_global.scssc
+.sass-cache/bed67172f79bca3178a9252450eedd1eedbf165d/_igGrid.scssc
+.sass-cache/bed67172f79bca3178a9252450eedd1eedbf165d/_documentation.scssc
+.sass-cache/bed67172f79bca3178a9252450eedd1eedbf165d/_navbar.scssc
+.sass-cache/bed67172f79bca3178a9252450eedd1eedbf165d/_rounded.scssc
+.sass-cache/d71f279d509709c535f820d3dc05813ddc68bc3d/_animation.scssc
+*.scssc
